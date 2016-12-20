@@ -1,7 +1,9 @@
 
 
 
-<li>{{lesson}}</li>
+<li id="{{lesson}}">{{lesson}}
 
-<input ng-model="lesson"/>
-<button ng-click="dayAlert({ lesson: lesson, day: lessonDay})"></button>
+<!--<input ng-model="lesson"/>-->
+<button ng-click="dayAlert({ lesson: lesson, day: lessonDay})">Which Day?</button>
+<button ng-click="strike()">Strike</button>
+</li>
