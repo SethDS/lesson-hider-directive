@@ -1,3 +1,7 @@
-<h1>Hello!</h1>
-<p>This is a directive practice.</p>
-{{lessons}}
+
+
+
+<li>{{lesson}}</li>
+
+<input ng-model="lesson"/>
+<button ng-click="dayAlert({ lesson: lesson, day: lessonDay})"></button>
